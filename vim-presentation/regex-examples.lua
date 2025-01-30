@@ -1,7 +1,5 @@
--- THIS IS WHAT CORRECT NVIM KEYMAPS LOOK LIKE
+-- THIS IS WHAT CORRECT NVIM KEYMAPS LOOK LIKE (using Lua not VimL)
 -- THIS IS WHAT A VALID COMMENT LOOKS LIKE
-
-
 
 -- CURSOR MOVEMENT
 vim.keymap.set("n", "j", "jzz", { desc = "Move down and vertically center" })
@@ -12,12 +10,8 @@ vim.keymap.set("i", "<C-c>", "<esc>", { desc = "Exit insert mode" })
 
 
 
--- THESE WERE IMPORTED FROM MY .VIMRC AND NEED CONVERTED TO NVIM
+-- THESE WERE IMPORTED FROM MY .VIMRC AND NEED CONVERTED TO NVIM (VimL -> Lua)
 -- USE REGEX SEARCH AND REPLACE
-
-
-
--- FILE EXPLORER (NETRW)
 nnoremap <leader>pv :Vex<CR>
 " FZF
 " Files (junegunn/fzf)
